@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="SGA Help Flash">
+    <body>
+      <group id="body">
+      <trans-unit id="Table 2235516719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IMEI Activations</source>
+          <target>Activaciones IMEI </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Activaciones IMEI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2235516719 - Field 3801212730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost</source>
+          <target>Coste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Activaciones IMEI - Field Coste - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2235516719 - Field 3440524554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activation Date</source>
+          <target>Fecha activación</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Activaciones IMEI - Field Fecha activación - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2235516719 - Field 3713673947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expiration Date</source>
+          <target>Fecha caducidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Activaciones IMEI - Field Fecha caducidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2235516719 - Field 2485768947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sale Date</source>
+          <target>Fecha venta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Activaciones IMEI - Field Fecha venta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2235516719 - Field 3592773612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IMEI</source>
+          <target>IMEI</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Activaciones IMEI - Field IMEI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2235516719 - Field 3000473740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sale</source>
+          <target>Venta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Activaciones IMEI - Field Venta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Containers Setup</source>
+          <target>Config. Contenedores</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 2811271754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pallet/Box Check</source>
+          <target>Comprobación pallets/cajas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field Comprobación pallets/cajas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 799061271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Returns Container</source>
+          <target>Contenedor devoluciones</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field Contenedor devoluciones - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 1741302690 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Log Book</source>
+          <target>Libro registro productos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field Libro registro productos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 4051735938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series Item</source>
+          <target>Nº Serie Prod</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field No. Serie Prod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Clave Primaria</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 2580817146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Registration Section</source>
+          <target>Sección registro productos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field Sección registro productos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 4099552789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Box type</source>
+          <target>Tipo caja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field Tipo caja - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 1570570550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Palet type</source>
+          <target>Tipo pallet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field Tipo pallet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 62749977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Palet Unit of Measure</source>
+          <target>Ud. Medida Pallet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field Ud. medida Pallet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3292945677 - Field 1837848580 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Box Unit of Measure</source>
+          <target>Ud. Medida. Caja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Containers Setup - Field Ud. medida. Caja - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Containers</source>
+          <target>Contenedores</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - NamedType 2066375457" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This type of combination it's not allowed</source>
+          <target>Este tipo de combinación no está permitido</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - NamedType lErr006</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - NamedType 1695631639" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The same container cannot be selected as a parent</source>
+          <target>No se puede seleccionar como padre al mismo contenedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - NamedType lErrNoSeleccionable</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - NamedType 2375426460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot rename a container</source>
+          <target>No se puede renombrar un contenedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - NamedType lErrRen</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - Field 2477408911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse</source>
+          <target>Almacén</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - Field Almacén - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - Field 743017303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Código</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - Field Código - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - Field 2615446671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - Field Descripción - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - Field 2803155833 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gaps</source>
+          <target>Huecos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - Field Huecos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - Field 3722087190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Father</source>
+          <target>Padre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - Field Padre - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - Field 2883740582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - Field Tipo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - Field 2607721401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin</source>
+          <target>Ubicación</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - Field Ubicacion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3113314417 - Field 467010782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Zone</source>
+          <target>Zona</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenedores - Field Zona - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164111626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Container Content</source>
+          <target>Contenido contenedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenido contenedor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164111626 - Field 4263742036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expiry</source>
+          <target>Caducidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenido contenedor - Field Caducidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164111626 - Field 2673828796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Cantidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenido contenedor - Field Cantidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164111626 - Field 743017303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Código</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenido contenedor - Field Código - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164111626 - Field 3592773612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IMEI</source>
+          <target>IMEI</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenido contenedor - Field IMEI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164111626 - Field 3678990124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Nº producto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenido contenedor - Field Nº producto - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164111626 - Field 3722087190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Father</source>
+          <target>Padre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenido contenedor - Field Padre - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164111626 - Field 1848624094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Of Measure</source>
+          <target>Unidad de medida</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contenido contenedor - Field Unidad de medida - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1615352517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Container Type</source>
+          <target>Tipo contenedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tipo contenedor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1615352517 - Field 2358683511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Supports Higher Level</source>
+          <target>Admite nivel superior</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tipo contenedor - Field Admite nivel superior - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1615352517 - Field 1475260075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tipo contenedor - Field Descripcion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1615352517 - Field 3041138980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fungible</source>
+          <target>Fungible</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tipo contenedor - Field Fungible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1615352517 - Field 815060024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <target>Nº Serie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tipo contenedor - Field Nº Serie - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1615352517 - Field 2883740582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tipo contenedor - Field Tipo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3113314417 - Method 840825682 - NamedType 3979465308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pallet %1 which has %2 units should have %3 units according to the corresponding unit of measure number.</source>
+          <target>El palet %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="El palet %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contenedores - Method ComprobCantDetallPalet - NamedType lErr001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3113314417 - Method 840825682 - NamedType 322194629" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Box %1 which has %2 units should have %3 units according to the corresponding unit of measure number.</source>
+          <target>La caja %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="La caja %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contenedores - Method ComprobCantDetallPalet - NamedType lErr002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3113314417 - Method 2243122353 - NamedType 3979465308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pallet %1 which has %2 units should have %3 units according to the corresponding unit of measure number.</source>
+          <target>El palet %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="El palet %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contenedores - Method ComprobCantDetallPaletRecep - NamedType lErr001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3113314417 - Method 2243122353 - NamedType 322194629" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Box %1 which has %2 units should have %3 units according to the corresponding unit of measure number.</source>
+          <target>La caja %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="La caja %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contenedores - Method ComprobCantDetallPaletRecep - NamedType lErr002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3113314417 - Method 2024329218 - NamedType 3979465308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pallet %1 which has %2 units should have %3 units according to the corresponding unit of measure number.</source>
+          <target>El palet %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="El palet %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contenedores - Method ComprobCantDetallPaletReg - NamedType lErr001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3113314417 - Method 2024329218 - NamedType 322194629" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Box %1 which has %2 units should have %3 units according to the corresponding unit of measure number.</source>
+          <target>La caja %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="La caja %1 que cuenta con %2 uds. debería tener %3 uds. según el número de unidad de medida correspondiente."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contenedores - Method ComprobCantDetallPaletReg - NamedType lErr002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3113314417 - Method 3121807720 - NamedType 2179470716" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The merchandise receipt cannot be generated. We only have %1 units in the pallet detail table pending to be generated.</source>
+          <target>No se puede generar la recepción de mercancía. Solo tenemos %1 unidades en la tabla detalle palet pendientes de generar.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="No se puede generar la recepción de mercancía. Solo tenemos %1 unidades en la tabla detalle palet pendientes de generar."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contenedores - Method VerificaContenedor - NamedType lText001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3113314417 - Method 3121807720 - NamedType 2817167333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The merchandise receipt cannot be generated. There are no units in the pallet detail table to be generated.</source>
+          <target>No se puede generar la recepción de mercancía. No disponemos de unidades en la tabla detalle palet pendientes de generar.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="No se puede generar la recepción de mercancía. No disponemos de unidades en la tabla detalle palet pendientes de generar."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contenedores - Method VerificaContenedor - NamedType lText002</note>
+        </trans-unit>
+        <trans-unit id="Page 2235516719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IMEI Activations</source>
+          <target>Activaciones IMEI</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Activaciones IMEI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3292945677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Containers Setup</source>
+          <target>Config. Contenedores</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Containers Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3292945677 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>General</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Containers Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1094507057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content</source>
+          <target>Contenido</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contenido - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3345881080 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Navigate</source>
+          <target>Nuevo,Proceso,Informes,Navegar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Lista contenedores - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 3345881080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Container list</source>
+          <target>Lista contenedores</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Lista contenedores - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3345881080 - Action 1094507057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content</source>
+          <target>Contenido</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Lista contenedores - Action Contenido - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1615352517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Container Type</source>
+          <target>Tipo contenedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tipo contenedor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2050781465 - Action 1554552760 - Method 1377591017 - NamedType 2179470716" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2050781465">
+          <source>Process completed</source>
+          <target>Proceso finalizado.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="Proceso finalizado."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AzmHFBreakdownPallets Ext - Action Desmarcar - Method OnAction - NamedType lText001</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1982721586 - Action 3050085469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Import IMSIs</source>
+          <target>Importar IMSIs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Subform Ext - Action Importar IMSIs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1982721586 - Action 3050085469 - Method 1377591017 - NamedType 1478738838" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1982721586">
+          <source>Please choose the CSV file</source>
+          <target>Seleccione el archivo CSV</target>
+          <note from="Developer" annotates="general" priority="2">ESP="Seleccione el archivo CSV"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Subform Ext - Action Importar IMSIs - Method OnAction - NamedType UploadMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1982721586 - Action 3050085469 - Method 1377591017 - NamedType 4246837688" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1982721586">
+          <source>No CSV file found!</source>
+          <target>No se ha encontrado ningún archivo CSV.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Subform Ext - Action Importar IMSIs - Method OnAction - NamedType lNoFileFoundMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1982721586 - Action 3050085469 - Method 1377591017 - NamedType 3979465308" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1982721586">
+          <source>The file to be imported contains less IMSI codes than units of the product in the selected purchase line.</source>
+          <target>El archivo a importar contiene menos códigos IMSI que uds del producto en la línea de compra seleccionada.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="El archivo a importar contiene menos códigos IMSI que uds del producto en la línea de compra seleccionada."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Subform Ext - Action Importar IMSIs - Method OnAction - NamedType lErr001</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1982721586 - Action 3050085469 - Method 1377591017 - NamedType 2179470716" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1982721586">
+          <source>The selected product is not a data package.</source>
+          <target>El producto seleccionado no es un paquete de datos.</target>
+          <note from="Developer" annotates="general" priority="2">ESP="El producto seleccionado no es un paquete de datos."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Subform Ext - Action Importar IMSIs - Method OnAction - NamedType lText001</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3768307499 - Control 3137316227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3921990236">
+          <source>Item Type Data Packages</source>
+          <target>Tipo de producto paquetes de datos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchases &amp; Payables Setup Ext - Control Tipo de producto paquetes de datos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4206960381 - Control 3294936845 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3213244558">
+          <source>Reclasification Journal</source>
+          <target>Diario de reclasificación</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Warehouse Setup Ext - Control ReclasJournal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2653081884 - Field 804024119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2182583131">
+          <source>Unit Cost</source>
+          <target>Coste unitario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AzmHF IMSI Lots Number Ext - Field Coste unitario - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4056345872 - Field 1020066796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2849429887">
+          <source>Box created</source>
+          <target>Contenedor generado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AzmHFBreakdownPallet Ext - Field Contenedor generado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4056345872 - Field 4152015851 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2849429887">
+          <source>Order No. IMSI</source>
+          <target>Nº de pedido IMSI</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AzmHFBreakdownPallet Ext - Field Nº pedido IMSI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1684746270 - Field 3713673947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Expiration date</source>
+          <target>Fecha de caducidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ext. - Field Fecha caducidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1684746270 - Field 2095356067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Terminate an Associated Item</source>
+          <target>Baja producto asociado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ext. - Field Baja producto asociado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1684746270 - Field 2768796992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Associated Item Code</source>
+          <target>Código producto asociado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ext. - Field Código producto asociado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1684746270 - Field 2919217985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Containers Management</source>
+          <target>Gestión de contenedores</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ext. - Field Gestión de contenedores - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1684746270 - Field 2937976887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>IMSI Management</source>
+          <target>Gestión de IMSIs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ext. - Field Gestión de IMSIs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3522557669 - Field 3456321611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Container</source>
+          <target>Contenedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Journal Line Ext - Field Contenedor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1880486063 - Field 3456321611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4089294192">
+          <source>Container</source>
+          <target>Contenedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ledger Entry Ext - Field Contenedor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 124687280 - Field 1915004458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Lot No.</source>
+          <target>Nº Lote</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Line Ext - Field Nº Lote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4206960381 - Field 4288892502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+          <source>Reclasification Journal Template</source>
+          <target>Libro diario de reclasificación de almacén</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Warehouse Setup Ext - Field ReclasJB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4206960381 - Field 3144468816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+          <source>Reclasification Journal Template</source>
+          <target>Sección diario de reclasificación de almacén</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Warehouse Setup Ext - Field ReclasJT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3768307499 - Field 1984691786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3921990236">
+          <source>Data Packages</source>
+          <target>Paquetes de datos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchases &amp; Payables Setup Ext - Field Paquetes de datos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2788153238 - EnumValue 2430780891 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Shipment</source>
+          <target>Envío alm.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TipoDocumento - EnumValue Envío alm. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2788153238 - EnumValue 2729021699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Receipt</source>
+          <target>Recep. Alm.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TipoDocumento - EnumValue Recep. Alm. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2788153238 - EnumValue 2106515133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reclasiff.</source>
+          <target>Reclasif.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TipoDocumento - EnumValue Reclasif. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2578794045 - EnumValue 1047900219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In</source>
+          <target>Entrada</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TipoMovimiento - EnumValue Entrada - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2578794045 - EnumValue 3483483006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Out</source>
+          <target>Salida</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TipoMovimiento - EnumValue Salida - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
