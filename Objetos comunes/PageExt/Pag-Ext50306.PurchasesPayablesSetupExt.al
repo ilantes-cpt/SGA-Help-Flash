@@ -2,17 +2,18 @@ pageextension 50306 "Purchases & Payables Setup Ext" extends "Purchases & Payabl
 {
     layout
     {
-        /*addafter("Default Accounts")
+        addafter("Default Accounts")
         {
             group("Tipo de producto paquetes de datos")
             {
                 Caption = 'Item Type Data Packages';
 
-                field("Paquetes de datos"; Rec."Paquetes de datos")
+                field(ConsumirPaquetes; Rec.ConsumirPaquetes)
                 {
                     ApplicationArea = all;
                 }
             }
-        }*/
+
+        }
     }
 }

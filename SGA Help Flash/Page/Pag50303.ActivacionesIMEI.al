@@ -1,4 +1,4 @@
-page 50303 "Activaciones IMEI"
+/*page 50303 "Activaciones IMEI"
 {
     ApplicationArea = All;
     Caption = 'IMEI Activations';
@@ -33,4 +33,4 @@ page 50303 "Activaciones IMEI"
             }
         }
     }
-}
+}*/

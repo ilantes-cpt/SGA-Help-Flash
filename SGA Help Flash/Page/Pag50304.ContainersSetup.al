@@ -36,11 +36,6 @@ page 50304 "Containers Setup"
                     ApplicationArea = all;
                     Editable = true;
                 }
-                field("Contenedor devoluciones"; Rec."Contenedor devoluciones")
-                {
-                    ApplicationArea = all;
-                    Editable = true;
-                }
                 field("Comprobación pallets/cajas"; Rec."Comprobación pallets/cajas")
                 {
                     ApplicationArea = all;

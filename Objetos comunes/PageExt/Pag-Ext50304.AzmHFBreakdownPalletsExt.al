@@ -2,6 +2,13 @@ pageextension 50304 "AzmHFBreakdownPallets Ext" extends AzmHFBreakdownPallets
 {
     layout
     {
+        addafter(OrderNo)
+        {
+            field("Nº Albarán Compra"; Rec."Nº Albarán Compra")
+            {
+                ApplicationArea = all;
+            }
+        }
         addafter(IMSI)
         {
             field("Nº pedido IMSI"; Rec."Nº pedido IMSI")
@@ -24,7 +31,7 @@ pageextension 50304 "AzmHFBreakdownPallets Ext" extends AzmHFBreakdownPallets
     {
         addlast(Processing)
         {
-            action(Desmarcar)
+            /*action(Desmarcar)
             {
                 ApplicationArea = all;
                 Promoted = true;
@@ -49,7 +56,7 @@ pageextension 50304 "AzmHFBreakdownPallets Ext" extends AzmHFBreakdownPallets
                 end;
             }
 
-            /*
+            
             action(ActValor)
             {
                 ApplicationArea = all;

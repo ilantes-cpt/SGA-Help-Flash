@@ -2,7 +2,7 @@
   "id": "6d3c09fd-9e85-42d7-94a4-949ab6d3084d",
   "name": "SGA Help Flash",
   "publisher": "Captology",
-  "version": "1.0.0.0",
+  "version": "24.0.0.6",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -15,24 +15,18 @@
       "id": "99a09d10-ea93-4e39-8309-5787af2e01b6",
       "name": "HFPurchases",
       "publisher": "Captology Gestión S.L.",
-      "version": "21.0.0.28"
+      "version": "22.0.0.1"
     },
     {
       "id": "2f3f0439-2bd5-4ad1-9db3-b846e9837a63",
       "name": "IMEI NETUN",
       "publisher": "Captology",
       "version": "1.0.0.11"
-    },
-    {
-      "id": "516318ec-75b8-4e18-9bfb-d68c96b9ed01",
-    "name": "Third-party logistics",
-    "publisher": "Captology",
-    "version": "1.0.0.6"
     }
   ],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "23.0.0.0",
   "idRanges": [
     {
       "from": 50300,

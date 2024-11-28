@@ -38,6 +38,9 @@ table 50305 "Containers Setup"
         {
             Caption = 'Returns Container';
             DataClassification = ToBeClassified;
+            ObsoleteState = Removed;
+            ObsoleteReason = 'No es necesario';
+            ObsoleteTag = '20231027';
         }
         field(7; "Comprobación pallets/cajas"; Boolean)
         {

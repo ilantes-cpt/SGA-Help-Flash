@@ -1,4 +1,4 @@
-table 50303 "Activaciones IMEI"
+/*table 50303 "Activaciones IMEI"
 {
     Caption = 'IMEI Activations';
     DataClassification = ToBeClassified;
@@ -37,4 +37,4 @@ table 50303 "Activaciones IMEI"
             Clustered = true;
         }
     }
-}
+}*/

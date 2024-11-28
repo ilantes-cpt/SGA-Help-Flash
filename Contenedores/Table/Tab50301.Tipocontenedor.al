@@ -25,6 +25,9 @@ table 50301 "Tipo contenedor"
         {
             Caption = 'Fungible';
             DataClassification = ToBeClassified;
+            ObsoleteState = Removed;
+            ObsoleteReason = 'No es necesario';
+            ObsoleteTag = '20231227';
         }
         field(5; "Admite nivel superior"; Boolean)
         {

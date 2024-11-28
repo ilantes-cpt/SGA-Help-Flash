@@ -4,13 +4,14 @@ pageextension 50307 "Warehouse Shipment Ext." extends "Warehouse Shipment"
     {
         addafter(WhseShptLines)
         {
-            part(LoteIMEI; "IMEI x Lotes")
+            part(Contenedores; "Contenido contenedor")
             {
                 ApplicationArea = Basic, Suite;
                 Visible = true;
                 Editable = false;
                 Provider = WhseShptLines;
-                SubPageLink = "Nº pedido" = field("Source No."), "Nº Linea pedido" = field("Source Line No.");
+                //SubPageLink = EnvioAlm = field("No."), LinEnvio = field("Line No.");
+                SubPageLink = EnvioAlm = field("Source No."), LinEnvio = field("Source Line No.");
                 UpdatePropagation = Both;
             }
         }

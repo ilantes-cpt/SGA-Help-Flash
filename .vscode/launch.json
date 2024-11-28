@@ -2,33 +2,72 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Attach: Microsoft cloud sandbox",
-            "type": "al",
-            "request": "attach",
-            "environmentType": "Sandbox",
-            "environmentName": "EntornoPRU",
-            "breakOnError": "All",
-            "breakOnRecordWrite": "None",
-            "enableSqlInformationDebugger": true,
-            "enableLongRunningSqlStatements": true,
-            "longRunningSqlStatementsThreshold": 500,
-            "numberOfSqlStatements": 10,
-            "breakOnNext": "WebClient"
-        },
-        {
-            "name": "Microsoft cloud sandbox",
+            "name": "Publicar en EntornoPRU",
             "request": "launch",
             "type": "al",
             "environmentType": "Sandbox",
-            "environmentName": "EntornoPRU",
-            "startupObjectId": 50300,
+            "environmentName": "DESARROLLO_Y_PRUEBAS",
+            "tenant": "31a05ab4-4374-4eb8-a4e0-9a9f9abceeb9",
+            "startupObjectId": 902,
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "schemaUpdateMode": "ForceSync"
+        },
+        // {
+        //     "name": "Publicar en DESARROLLO_Y_PRUEBAS",
+        //     "request": "launch",
+        //     "type": "al",
+        //     "environmentType": "Sandbox",
+        //     "environmentName": "DESARROLLO_Y_PRUEBAS",
+        //     "tenant": "31a05ab4-4374-4eb8-a4e0-9a9f9abceeb9",
+        //     "startupObjectId": 9305,
+        //     "startupObjectType": "Page",
+        //     "breakOnError": "All",
+        //     "launchBrowser": true,
+        //     "enableLongRunningSqlStatements": true,
+        //     "enableSqlInformationDebugger": true,
+        //     "schemaUpdateMode": "ForceSync"
+        // },
+        {
+            "name": "snapshotInitialize: Microsoft production cloud",
+            "type": "al",
+            "request": "snapshotInitialize",
+            "environmentType": "Production",
+            "environmentName": "production",
+            "tenant": "31a05ab4-4374-4eb8-a4e0-9a9f9abceeb9",
+            "breakOnNext": "WebClient",
+            "executionContext": "DebugAndProfile"
         }
-
+        /*{
+            "name": "Conectar a la siguiente sesión de cliente web (DESARROLLO_3) para depurar",
+            "type": "al",
+            "request": "attach",
+            "environmentType": "Sandbox",
+            "environmentName": "Desarrollo_3",
+            "tenant": "31a05ab4-4374-4eb8-a4e0-9a9f9abceeb9",
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "breakOnNext": "WebServiceClient"
+        },{
+            "name": "Conectar a la siguiente sesión de cliente web (PRODUCCION) para depurar",
+            "type": "al",
+            "request": "attach",
+            "environmentType": "Production",
+            "tenant": "31a05ab4-4374-4eb8-a4e0-9a9f9abceeb9",
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "breakOnNext": "WebServiceClient"
+        }*/
     ]
 }

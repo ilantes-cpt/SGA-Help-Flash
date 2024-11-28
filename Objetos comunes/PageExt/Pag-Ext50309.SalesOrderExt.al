@@ -4,15 +4,15 @@ pageextension 50309 "Sales Order Ext." extends "Sales Order"
     {
         addafter(SalesLines)
         {
-            /*part(Contenedores; "Lista contenedores")
+            part(Contenedores; "Contenido contenedor")
             {
                 ApplicationArea = Basic, Suite;
                 Visible = true;
                 Editable = false;
                 Provider = SalesLines;
-                SubPageLink = "Nº pedido" = field("Document No."), "Nº Linea pedido" = field("Line No.");
+                SubPageLink = PedVenta = field("Document No."), LinPedVenta = field("Line No.");
                 UpdatePropagation = Both;
-            }*/
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
 {
     "workbench.editor.decorations.colors": false,
-    "editor.defaultColorDecorators": false
+    "editor.defaultColorDecorators": false,
+    "al.showHomeAtStartup": "WhenUpdated"
 }

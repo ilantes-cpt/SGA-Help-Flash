@@ -31,6 +31,12 @@ tableextension 50303 "AzmHFBreakdownPallet Ext" extends AzmHFBreakdownPallet
             Caption = 'Order No. IMSI';
             DataClassification = ToBeClassified;
         }
+        field(50304; "Nº Albarán Compra"; Code[20])
+        {
+            Caption = 'Purch. Rcpt. No.';
+            DataClassification = ToBeClassified;
+            TableRelation = "Purch. Rcpt. Header"."No.";
+        }
     }
 
     trigger OnInsert()

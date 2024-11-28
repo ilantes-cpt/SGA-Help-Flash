@@ -8,10 +8,8 @@ pageextension 50305 "Purchase Order Subform Ext" extends "Purchase Order Subform
             {
                 ApplicationArea = all;
                 Editable = false;
-                //Editable = true;
             }
         }
-
     }
     actions
     {
@@ -26,76 +24,99 @@ pageextension 50305 "Purchase Order Subform Ext" extends "Purchase Order Subform
                 trigger OnAction()
                 var
                     //rListaIMSI: Record "AzmHF IMSI Lots Number";
-                    rDetallPal, rDetallPall : Record AzmHFBreakdownPallet;
+                    rDetallPal, rDetallPall, rDetallPalle : Record AzmHFBreakdownPallet;
                     InS: InStream;
                     tFileName, tFromFile : Text[100];
                     UploadMsg: Label 'Please choose the CSV file', comment = 'ESP="Seleccione el archivo CSV"';
                     lNoFileFoundMsg: Label 'No CSV file found!';
                     lErr001: Label 'The file to be imported contains less IMSI codes than units of the product in the selected purchase line.', comment = 'ESP="El archivo a importar contiene menos códigos IMSI que uds del producto en la línea de compra seleccionada."';
                     cFileMgt: Codeunit "File Management";
-                    LineNo: Integer;
+                    LineNo, iEntryNo, iRepetidos : Integer;
                     dCant, dCantIMSI : Decimal;
                     rBOMComp: Record "BOM Component";
+                    dDialog: Dialog;
                     rItem: Record Item;
                     lText001: Label 'The selected product is not a data package.', comment = 'ESP="El producto seleccionado no es un paquete de datos."';
+                    cCodIMSI: Code[20];
+                    lText002: Label 'The IMSI code %1 that you want to import already exists in pallet detail.', comment = 'ESP="El código de IMSI %1 que quiere importar ya existe en detalle palet."';
+                    lText003: Label 'Some IMSI codes (%1) already exists in pallet detail.', comment = 'ESP="Algunos códigos IMSI (%1) ya existe en detalle palet."';
                 begin
                     if rItem.Get(Rec."No.") then begin
                         if rItem."Gestión de IMSIs" then begin
-                            dCantIMSI := 0;
-                            if Rec."Nº Lote" = 0 then
+                            //dCantIMSI := 0;
+                            dCant := 0;
+                            /*if Rec."Nº Lote" = 0 then
                                 dCant := 0
                             else
-                                dCant := Rec."Nº Lote";
+                                dCant := Rec."Nº Lote";*/
                             rBOMComp.Reset();
                             rBOMComp.SetRange("No.", Rec."No.");
                             rBOMComp.Setfilter("Installed in Item No.", '<>%1', Rec."No.");
+                            ddialog.open('Procesando registros #1#####');
                             if rBOMComp.FindSet() then begin
                                 UploadIntoStream(UploadMsg, '', '', tFromFile, InS);
                                 if tFromFile <> '' then begin
                                     tFileName := cFileMgt.GetFileName(tFromFile);
                                 end else
                                     Error(lNoFileFoundMsg);
-                                dCantIMSI := Rec."Qty. to Receive";
+                                iRepetidos := 0;
+                                rDetallPalle.Reset();
+                                rDetallPalle.SetFilter(EntryNo, '<>%1', 0);
+                                if rDetallPalle.FindLast() then
+                                    iEntryNo := 1 + rDetallPalle.EntryNo
+                                ELSE
+                                    iEntryNo := 1;
+                                //dCantIMSI := Rec."Qty. to Receive";
                                 CSVBuffer.Reset();
                                 CSVBuffer.DeleteAll();
                                 CSVBuffer.LoadDataFromStream(InS, ';');
                                 //if dCantIMSI > CSVBuffer.GetNumberOfLines() - 1 then
                                 //Error(lErr001);
-                                //if CSVBuffer.FindSet() then
-                                //repeat
                                 for LineNo := 2 to CSVBuffer.GetNumberOfLines() do begin
+                                    ddialog.update(1, lineno - 1);
+                                    //cCodIMSI := GetValueAtCell(LineNo, 1);
                                     rDetallPal.Reset();
-                                    //rDetallPal.SetRange(IMSI, CSVBuffer.Value);
+                                    rDetallPal.SetCurrentKey(IMSI);
                                     rDetallPal.SetRange(IMSI, GetValueAtCell(LineNo, 1));
+                                    //rDetallPal.SetRange(IMSI, cCodIMSI);
                                     if not rDetallPal.Find('-') then begin
                                         //if not rListaIMSI.Get(GetValueAtCell(LineNo, 1)) then begin
-                                        //if GetValueAtCell(LineNo, 1) <> '' then begin
-                                        if dCant = dCantIMSI then
-                                            break;
-                                        /*rListaIMSI.Init();
-                                        Evaluate(rListaIMSI."IMSI Code", GetValueAtCell(LineNo, 1));
-                                        rListaIMSI.Validate("IMSI Code", GetValueAtCell(LineNo, 1));
-                                        rListaIMSI.Validate("BC Lot No", Rec."Document No.");
-                                        if rListaIMSI.Insert(true) then
-                                            dCant += 1;*/
-                                        rDetallPall.Init();
-                                        Evaluate(rDetallPall.IMSI, GetValueAtCell(LineNo, 1));
-                                        //rDetallPall.Validate(IMSI, GetValueAtCell(LineNo, 1));
-                                        rDetallPall.Validate(OnlyIMSI, true);
-                                        //rDetallPal.Validate("Nº pedido IMSI", Rec."Document No.");
-                                        if rDetallPall.Insert(true) then
-                                            dCant += 1;
-                                        Commit();
-                                        //end;
-                                    end;
+                                        if GetValueAtCell(LineNo, 1) <> '' then begin
+                                            //if dCant = dCantIMSI then
+                                            //break;
+                                            /*rListaIMSI.Init();
+                                            Evaluate(rListaIMSI."IMSI Code", GetValueAtCell(LineNo, 1));
+                                            rListaIMSI.Validate("IMSI Code", GetValueAtCell(LineNo, 1));
+                                            rListaIMSI.Validate("BC Lot No", Rec."Document No.");
+                                            if rListaIMSI.Insert(true) then
+                                                dCant += 1;*/
+                                            rDetallPall.Init();
+                                            rDetallPall.EntryNo := iEntryNo;
+                                            //Evaluate(rDetallPall.IMSI, cCodIMSI);
+                                            //rDetallPall.Validate(IMSI, cCodIMSI);
+                                            rDetallPall.Validate(IMSI, GetValueAtCell(LineNo, 1));
+                                            rDetallPall.Validate("Nº pedido IMSI", Rec."Document No.");
+                                            rDetallPall.Validate("Unit Cost", Rec."Direct Unit Cost");
+                                            rDetallPall.Validate(OnlyIMSI, true);
+                                            if rDetallPall.Insert(true) then begin
+                                                dCant += 1;
+                                                iEntryNo += 1;
+                                            end;
+                                        end;
+                                    end else
+                                        iRepetidos += 1;
+                                    ;/* else
+                                        Message(lText002, GetValueAtCell(LineNo, 1));*/
                                 end;
-                                //until CSVBuffer.Next() = 0;
-                                Rec.Validate("Qty. to Receive", dCant);
+                                //Rec.Validate("Qty. to Receive", dCant);
                                 Rec.Validate("Nº Lote", dCant);
                                 Rec.Modify(true);
                                 //if dCant <> 0 then
                                 //CrearReservaComprasCantidad(Rec, dCant);
                             end;
+                            ddialog.close;
+                            if iRepetidos <> 0 then
+                                message(lText003, iRepetidos)
                         end else
                             Message(lText001);
                     end;

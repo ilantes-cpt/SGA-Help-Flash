@@ -28,10 +28,10 @@ page 50301 "Tipo contenedor"
                 {
                     ApplicationArea = All;
                 }
-                field(Fungible; Rec.Fungible)
+                /*field(Fungible; Rec.Fungible)
                 {
                     ApplicationArea = All;
-                }
+                }*/
             }
         }
     }
